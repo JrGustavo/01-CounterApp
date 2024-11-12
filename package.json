@@ -1,14 +1,4 @@
 {
-  "name": "Counter",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "lint": "eslint .",
-    "start": "react-native start",
-    "test": "jest"
-  },
   "dependencies": {
     "react": "18.3.1",
     "react-native": "0.76.1"
@@ -35,5 +25,16 @@
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "name": "Counter",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "react-native start",
+    "test": "jest",
+    "start:ios": "npm run ios -- --simulator='iPhone 15 Pro Max (457435CB-CED8-4E43-9B7A-29CFFEC9E288)'"
+  },
+  "version": "0.0.1"
 }
